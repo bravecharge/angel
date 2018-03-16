@@ -218,5 +218,8 @@ public class MRTaskContext implements TaskAttemptContext {
   public RawComparator<?> getCombinerKeyGroupingComparator() {
     return null;
   }
-
+ 
+public boolean userClassesTakesPrecedence() {
+	return false;
+}
 }
