@@ -219,7 +219,7 @@ public class MRTaskContext implements TaskAttemptContext {
     return null;
   }
  
-public boolean userClassesTakesPrecedence() {
+  public boolean userClassesTakesPrecedence() {
 	return false;
-}
+  }
 }
